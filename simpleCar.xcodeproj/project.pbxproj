@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC29F7962BC2914200D6398A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC29F7982BC2914200D6398A /* simpleCar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = simpleCar; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC29F7A22BC2917800D6398A /* 보고서 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "보고서 2.pdf"; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/보고서 2.pdf"; sourceTree = "<group>"; };
+		CC29F7A32BC2917800D6398A /* car.cpython-39.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "car.cpython-39.pyc"; sourceTree = "<group>"; };
+		CC29F7A52BC2917800D6398A /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = labels.txt; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/labels.txt"; sourceTree = "<group>"; };
+		CC29F7A62BC2917800D6398A /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/car.png"; sourceTree = "<group>"; };
+		CC29F7A72BC2917800D6398A /* model_edgetpu.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = model_edgetpu.tflite; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/model_edgetpu.tflite"; sourceTree = "<group>"; };
+		CC29F7A82BC2917800D6398A /* car.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = car.py; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/car.py"; sourceTree = "<group>"; };
+		CC29F7A92BC2917800D6398A /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flag.png; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/flag.png"; sourceTree = "<group>"; };
+		CC29F7AA2BC2917800D6398A /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = labelmap.txt; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/labelmap.txt"; sourceTree = "<group>"; };
+		CC29F7AB2BC2917800D6398A /* detect.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = detect.tflite; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/detect.tflite"; sourceTree = "<group>"; };
+		CC29F7AC2BC2917800D6398A /* 자율과정발표자료.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "자율과정발표자료.pdf"; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/자율과정발표자료.pdf"; sourceTree = "<group>"; };
+		CC29F7AD2BC2917800D6398A /* edge.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = edge.py; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/edge.py"; sourceTree = "<group>"; };
+		CC29F7AE2BC2917800D6398A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/back.png"; sourceTree = "<group>"; };
+		CC29F7AF2BC2917800D6398A /* tes.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = tes.py; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/tes.py"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC29F7952BC2914200D6398A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC29F78F2BC2914200D6398A = {
+			isa = PBXGroup;
+			children = (
+				CC29F7A42BC2917800D6398A /* __pycache__ */,
+				CC29F7A22BC2917800D6398A /* 보고서 2.pdf */,
+				CC29F7AC2BC2917800D6398A /* 자율과정발표자료.pdf */,
+				CC29F7AE2BC2917800D6398A /* back.png */,
+				CC29F7A62BC2917800D6398A /* car.png */,
+				CC29F7A82BC2917800D6398A /* car.py */,
+				CC29F7AB2BC2917800D6398A /* detect.tflite */,
+				CC29F7AD2BC2917800D6398A /* edge.py */,
+				CC29F7A92BC2917800D6398A /* flag.png */,
+				CC29F7AA2BC2917800D6398A /* labelmap.txt */,
+				CC29F7A52BC2917800D6398A /* labels.txt */,
+				CC29F7A72BC2917800D6398A /* model_edgetpu.tflite */,
+				CC29F7AF2BC2917800D6398A /* tes.py */,
+				CC29F7992BC2914200D6398A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC29F7992BC2914200D6398A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC29F7982BC2914200D6398A /* simpleCar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC29F7A42BC2917800D6398A /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				CC29F7A32BC2917800D6398A /* car.cpython-39.pyc */,
+			);
+			name = __pycache__;
+			path = "../../../Library/Mobile Documents/com~apple~CloudDocs/converted_edgetpu/__pycache__";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC29F7972BC2914200D6398A /* simpleCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC29F79F2BC2914200D6398A /* Build configuration list for PBXNativeTarget "simpleCar" */;
+			buildPhases = (
+				CC29F7942BC2914200D6398A /* Sources */,
+				CC29F7952BC2914200D6398A /* Frameworks */,
+				CC29F7962BC2914200D6398A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleCar;
+			productName = simpleCar;
+			productReference = CC29F7982BC2914200D6398A /* simpleCar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC29F7902BC2914200D6398A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CC29F7972BC2914200D6398A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CC29F7932BC2914200D6398A /* Build configuration list for PBXProject "simpleCar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC29F78F2BC2914200D6398A;
+			productRefGroup = CC29F7992BC2914200D6398A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC29F7972BC2914200D6398A /* simpleCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC29F7942BC2914200D6398A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC29F79D2BC2914200D6398A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC29F79E2BC2914200D6398A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC29F7A02BC2914200D6398A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF4KWKPT2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC29F7A12BC2914200D6398A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF4KWKPT2Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC29F7932BC2914200D6398A /* Build configuration list for PBXProject "simpleCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC29F79D2BC2914200D6398A /* Debug */,
+				CC29F79E2BC2914200D6398A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC29F79F2BC2914200D6398A /* Build configuration list for PBXNativeTarget "simpleCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC29F7A02BC2914200D6398A /* Debug */,
+				CC29F7A12BC2914200D6398A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC29F7902BC2914200D6398A /* Project object */;
+}
